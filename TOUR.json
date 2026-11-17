@@ -1,1 +1,1 @@
-{"tour": 1, "steps": [{"screenshot": "1-start.png"}, {"screenshot": "2-play.png", "keys": ["Right"], "wait_ms": 1000}, {"screenshot": "3-end.png", "keys": ["Down"], "wait_ms": 1000}]}
+{"steps":[{"call":{"arg":0,"fn":"setWaveCountdown","module":"ServerScriptService.Server.WaveController","on":"Server"},"screenshot":"1-tsunami.jpg"},{"keys":["W"],"screenshot":"2-catch.jpg","wait_ms":1500},{"screenshot":"3-base.jpg"}],"tour":1}
